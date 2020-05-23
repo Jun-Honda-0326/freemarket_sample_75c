@@ -32,8 +32,11 @@
 |------|----|-------|
 |name|string|null: false|
 
+### 指定gem
+gem 'ancestry', '~> 1.2'
 ### Association
 - has_many :items
+- has_ancestry
 
 
 ## item_imagesテーブル
